@@ -35,7 +35,7 @@ fun main() {
     println("\n\n")
 
     for (i in 1..10) {
-        array3[i - 1] = i * i * 1.0;
+        array3[i - 1] = i * i * 1.0
     }
 
     array3.forEach { print("$it ") }
