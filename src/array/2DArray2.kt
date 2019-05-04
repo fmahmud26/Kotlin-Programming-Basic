@@ -2,7 +2,7 @@ package array
 
 fun main() {
 
-    var array = Array(3, { IntArray(3, { -1 }) })
+    var array = Array(3) { IntArray(3) { -1 } }
 
     for (i in array) {
         for (j in i) {
